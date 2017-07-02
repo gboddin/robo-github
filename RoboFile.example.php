@@ -2,7 +2,6 @@
 class RoboFile {
   use \Gbo\Robo\Task\Github\DeployTask;
   use \Robo\Common\ConfigAwareTrait;
-    public function createDeploy($token, $org, $repo, $ref, $environment) {
 
         /**
          * Your CI environment is probably setting environment variables.
