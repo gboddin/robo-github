@@ -1,0 +1,23 @@
+{
+    "name": "gboddin/robo-github",
+    "description": "A Github task plugin for Rbo",
+    "type": "robo-tasks",
+    "require": {
+        "consolidation/robo": "~1",
+        "knplabs/github-api": "~2.5",
+        "php-http/guzzle6-adapter": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gbo\\Robo\\Task\\Github\\": "src/"
+
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gregory Boddin",
+            "email": "gregory@siwhine.net"
+        }
+    ]
+}
