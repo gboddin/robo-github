@@ -1,8 +1,8 @@
-#Robo Github plugin
+# Robo Github plugin
 
 ## Deployments
 
-Used to create or update deployments on github from Robo.
+Plugin to create or update deployments on github from Robo.
 
 ### Available tasks
 
