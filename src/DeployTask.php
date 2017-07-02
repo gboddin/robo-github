@@ -3,7 +3,6 @@ namespace Gbo\Robo\Task\Github {
 
     trait DeployTask {
         use GithubClient;
-        use \Robo\Common\TaskIO;
 
         /**
          * Create a github deployment
