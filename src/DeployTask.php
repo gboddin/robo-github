@@ -19,7 +19,7 @@ namespace Gbo\Robo\Task\Github {
                 $org,
                 $repo,
                 array('required_contexts' => [],
-                    'auto_merge' => $this->getConfigValue('github.automerge', false),
+                    'auto_merge' => false,
                     'environment' => $environment,
                     'ref' => $ref)
             );

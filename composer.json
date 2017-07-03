@@ -1,6 +1,6 @@
 {
     "name": "gboddin/robo-github",
-    "description": "A Github task plugin for Rbo",
+    "description": "A Github task plugin for Robo",
     "type": "robo-tasks",
     "require": {
         "consolidation/robo": "~1",
