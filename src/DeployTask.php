@@ -29,7 +29,7 @@ namespace Gbo\Robo\Task\Github {
          * Finish a github deployment
          *
          * @command github:deploy:finish
-         * @parma  string $token Github http auth token
+         * @param  string $token Github http auth token
          * @param  string $org   Organisation name
          * @param  string $repo Repository name
          * @param  string $ref  Git reference
@@ -43,7 +43,7 @@ namespace Gbo\Robo\Task\Github {
          * Fail a github deployment
          *
          * @command github:deploy:fail
-         * @parma  string $token Github http auth token
+         * @param  string $token Github http auth token
          * @param  string $org   Organisation name
          * @param  string $repo Repository name
          * @param  string $ref  Git reference
@@ -56,7 +56,7 @@ namespace Gbo\Robo\Task\Github {
         /**
          * Update a github deployment
          *
-         * @parma  string $token Github http auth token
+         * @param  string $token Github http auth token
          * @param  string $org   Organisation name
          * @param  string $repo Repository name
          * @param  string $ref  Git reference
